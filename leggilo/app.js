@@ -51,7 +51,7 @@ exports.leggiloHandler = async (event, context) => {
     return {
         statusCode: 200, body: JSON.stringify(response), headers: {
             'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': 'http://localhost:3001'
+            'Access-Control-Allow-Origin': '*'
         }
     };
 };
