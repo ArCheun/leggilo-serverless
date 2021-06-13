@@ -21,7 +21,7 @@ exports.leggiloHandler = async (event, context) => {
 
 function getHeaders(event) {
     const headers = {'Content-Type': 'application/json'};
-    const allowedOrigins = process.env.LEGGILO_ALLOWED_ORIGINS.split(',');
+    const allowedOrigins = process.env.LEGGILO_ALLOWED_ORIGINS ? process.env.LEGGILO_ALLOWED_ORIGINS.split(',') : [];
     let requestOrigin = event.headers.Origin;
     if (!requestOrigin) {
         requestOrigin = event.headers.origin;
