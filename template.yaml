@@ -23,6 +23,9 @@ Resources:
           Properties:
             Path: /fetch
             Method: get
+      Environment:
+        Variables:
+          LEGGILO_ALLOWED_ORIGINS: http://localhost:3001,https://www.archeun.com
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
