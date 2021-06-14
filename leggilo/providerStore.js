@@ -172,7 +172,7 @@ const getProviders = () => {
         },
         23: {
             id: 23,
-            root: 'dailydev',
+            root: 'rss2js',
             name: 'Daily Dev',
             url: 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fdaily.dev%2Fblog%2Frss.xml',
             thumbnail: 'https://res.cloudinary.com/practicaldev/image/fetch/s--KCRN0Wuf--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/356/ceb8dc0f-a77b-4f89-84da-52216a4286e1.png'
