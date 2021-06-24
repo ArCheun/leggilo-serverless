@@ -261,6 +261,13 @@ const getProviders = () => {
             url: 'https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Ffeeds.feedburner.com%2FTechCrunchIT',
             thumbnail: 'https://spng.pngfind.com/pngs/s/340-3403096_file-techcrunch-logo-svg-techcrunch-logo-png-transparent.png'
         },
+        36: {
+            id: 36,
+            root: 'rss2js',
+            name: 'Stitcher IO',
+            url: 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fstitcher.io%2Frss',
+            thumbnail: 'https://stitcher.io/resources/img/favicon/favicon-32x32.png'
+        },
     };
 }
 
