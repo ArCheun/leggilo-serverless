@@ -268,6 +268,13 @@ const getProviders = () => {
             url: 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fstitcher.io%2Frss',
             thumbnail: 'https://stitcher.io/resources/img/favicon/favicon-32x32.png'
         },
+        37: {
+            id: 37,
+            root: 'rss2js',
+            name: 'How to Geek',
+            url: 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.howtogeek.com%2Ffeed%2F',
+            thumbnail: 'https://www.howtogeek.com/public/favicon.ico'
+        },
     };
 }
 
