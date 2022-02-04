@@ -25,7 +25,7 @@ Resources:
             Method: get
       Environment:
         Variables:
-          LEGGILO_ALLOWED_ORIGINS: http://localhost:3001,https://www.archeun.com,https://archeun-leggilo.netlify.app
+          LEGGILO_ALLOWED_ORIGINS: http://localhost:3001,https://www.archeun.com,https://leggilo-archeun.netlify.app
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
